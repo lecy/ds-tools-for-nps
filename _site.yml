@@ -1,0 +1,14 @@
+output_dir: 'doc'
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    mathjax: null
+    toc_depth: 3
+    toc_float:
+      collapsed: false
+    includes:
+      in_header: include_head.html
+      before_body: header.html
+      after_body: footer.html
+    css: css/rmarkdown.css
